@@ -1,0 +1,40 @@
+{
+  "name": "n-downloader",
+  "version": "1.0.0",
+  "description": "download file",
+  "main": "index.js",
+  "files": [
+		"index.js"
+  ],
+  "keywords": [
+		"download",
+		"http"
+	],
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxy1995/n-downloader.git"
+  },
+  "author": "travel2wxy@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wxy1995/n-downloader/issues"
+  },
+  "homepage": "https://github.com/wxy1995/n-downloader#readme",
+  "dependencies": {
+    "ext-name": "^5.0.0",
+    "get-stream": "^5.1.0",
+    "got": "^9.6.0",
+    "mkdirp": "^0.5.1",
+    "ora": "^3.4.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "ava": "^2.2.0"
+  },
+  "engines": {
+		"node": ">=8"
+	}
+}
