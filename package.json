@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "download file",
   "main": "index.js",
-  "files": [
-		"index.js"
-  ],
   "keywords": [
-		"download",
-		"http"
+    "download",
+    "http"
 	],
   "scripts": {
     "test": "ava"
@@ -35,6 +32,6 @@
     "ava": "^2.2.0"
   },
   "engines": {
-		"node": ">=8"
+    "node": ">=8"
 	}
 }
